@@ -1,5 +1,5 @@
 
-import 'package:dct2b_app/dashboard.dart';
+import 'package:dct2b_app/container_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Dashboard()
+      home: ContainerPage()
     );
   }
 }
